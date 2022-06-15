@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruits_inventory/cubits/fruits/fruits_state.dart';
-import 'package:fruits_inventory/repositories/fruit_repository.dart';
+import 'package:fruits_inventory/repositories/fruit.dart';
 
 class FruitsCubit extends Cubit<FruitsState> {
   final FruitRepository repository;
